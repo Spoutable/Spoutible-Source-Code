@@ -23,21 +23,16 @@ For everyone else:
 
 Clone this repo and follow the install instructions in the 'documentation' folder - you too can be a 'Twitter Killer'. Make sure you change the logo to a whale, but don't steal the logo like Christopher Bouzy did. We're serious - https://twitter.com/sambee89/status/1645247470249689088
 
-We should all ask Christopher here - https://twitter.com/cbouzy
+We should ask Christopher about all this here - https://twitter.com/cbouzy
 
 The orignial code and full documentation is also available for purchase here, look at them screenshots!:
 https://codecanyon.net/item/colibrism-the-ultimate-php-modern-social-media-sharing-platform/26612898
 
+____          _  _  _____ _ ___         
+ ||_ /\ |\/| / \|_)(_  | | \ |  /\ |\ | 
+ ||_/--\|  | \_/|_)__)_|_|_/_|_/--\| \| 
 
-##### ######   ##   #    #     ####  #####   ####  # #####  #   ##   #    # 
-  #   #       #  #  ##  ##    #    # #    # #      # #    # #  #  #  ##   # 
-  #   #####  #    # # ## #    #    # #####   ####  # #    # # #    # # #  # 
-  #   #      ###### #    #    #    # #    #      # # #    # # ###### #  # # 
-  #   #      #    # #    #    #    # #    # #    # # #    # # #    # #   ## 
-  #   ###### #    # #    #     ####  #####   ####  # #####  # #    # #    # 
-
-  EvanThaGod -- KrrustyAli -- NiteEnby
-
-  Roamin' undercover @ https://doubtible.com
+EvanThaGod -- KrrustyAli -- NiteEnby
+Crack open another tinny! Roamin' undercover @ https://doubtible.com
 
 
