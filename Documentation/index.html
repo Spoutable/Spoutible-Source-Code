@@ -1,0 +1,1153 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="keywords" content="">
+        <title>
+            ColibriSM - The Ultimate PHP Modern Social Media Sharing Platform
+        </title>
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="fonts/Inter/inter-fontfaces.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrapv5-0-2/bootstrapv5-0-2.css">
+        <link rel="stylesheet" type="text/css" href="css/style.master.css">
+
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    </head>
+    <body>    
+        <div class="docs-container">
+            <div class="docs-container__header">
+                <div class="row">
+                    <div class="col-xxl-8 offset-xxl-2 col-xl-12">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <div class="item">
+                                    <div class="logo">
+                                        <img src="images/logo.png" alt="Logo">
+                                    </div>
+                                    <div class="version">
+                                        <span>Version:</span> v1.3.4
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <a href="https://codecanyon.net/user/mansur_tl" class="d-block" target="_blank">
+                                    <div class="author">
+                                        <div class="name">
+                                            <span>Author:</span> Mansur Altamirov
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="images/mansur-tl.png" alt="Img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxl-8 offset-xxl-2 col-xl-12">
+                    <div class="docs-container__body">
+                        <div class="row">
+                            <div class="col-xxl-3 col-sm-12">
+                                <div class="docs-sidebar" id="docs-sidebar">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#section-introduction">
+                                                <span class="icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24" x="0"/></g><g><path d="M22.47,5.2C22,4.96,21.51,4.76,21,4.59v12.03C19.86,16.21,18.69,16,17.5,16c-1.9,0-3.78,0.54-5.5,1.58V5.48 C10.38,4.55,8.51,4,6.5,4C4.71,4,3.02,4.44,1.53,5.2C1.2,5.36,1,5.71,1,6.08v12.08c0,0.58,0.47,0.99,1,0.99 c0.16,0,0.32-0.04,0.48-0.12C3.69,18.4,5.05,18,6.5,18c2.07,0,3.98,0.82,5.5,2c1.52-1.18,3.43-2,5.5-2c1.45,0,2.81,0.4,4.02,1.04 c0.16,0.08,0.32,0.12,0.48,0.12c0.52,0,1-0.41,1-0.99V6.08C23,5.71,22.8,5.36,22.47,5.2z M10,16.62C8.86,16.21,7.69,16,6.5,16 c-1.19,0-2.36,0.21-3.5,0.62V6.71C4.11,6.24,5.28,6,6.5,6C7.7,6,8.89,6.25,10,6.72V16.62z M19,0.5l-5,5V15l5-4.5V0.5z"/></g></svg>
+                                                </span>
+                                                <span class="text">
+                                                    Introduction
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#section-installation">
+                                                <span class="icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24"/></g><g><g><path d="M20,17H4V5h8V3H4C2.89,3,2,3.89,2,5v12c0,1.1,0.89,2,2,2h4v2h8v-2h4c1.1,0,2-0.9,2-2v-3h-2V17z"/><polygon points="17,14 22,9 20.59,7.59 18,10.17 18,3 16,3 16,10.17 13.41,7.59 12,9"/></g></g></svg>
+                                                </span>
+                                                <span class="text">
+                                                    Installation
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#section-soclogin">
+                                                <span class="icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24"/></g><g><path d="M11,7L9.6,8.4l2.6,2.6H2v2h10.2l-2.6,2.6L11,17l5-5L11,7z M20,19h-8v2h8c1.1,0,2-0.9,2-2V5c0-1.1-0.9-2-2-2h-8v2h8V19z"/></g></svg>
+                                                </span>
+                                                <span class="text">
+                                                    Social login
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#section-faqs">
+                                                <span class="icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><path d="M4,6H2v14c0,1.1,0.9,2,2,2h14v-2H4V6z M20,2H8C6.9,2,6,2.9,6,4v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V4 C22,2.9,21.1,2,20,2z M20,16H8V4h12V16z M13.51,10.16c0.41-0.73,1.18-1.16,1.63-1.8c0.48-0.68,0.21-1.94-1.14-1.94 c-0.88,0-1.32,0.67-1.5,1.23l-1.37-0.57C11.51,5.96,12.52,5,13.99,5c1.23,0,2.08,0.56,2.51,1.26c0.37,0.6,0.58,1.73,0.01,2.57 c-0.63,0.93-1.23,1.21-1.56,1.81c-0.13,0.24-0.18,0.4-0.18,1.18h-1.52C13.26,11.41,13.19,10.74,13.51,10.16z M12.95,13.95 c0-0.59,0.47-1.04,1.05-1.04c0.59,0,1.04,0.45,1.04,1.04c0,0.58-0.44,1.05-1.04,1.05C13.42,15,12.95,14.53,12.95,13.95z"/></g></svg>
+                                                </span>
+                                                <span class="text">
+                                                    F.A.Qs
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#section-https">
+                                                <span class="icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+                                                </span>
+                                                <span class="text">
+                                                    HTTPS / SSL Security
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#section-update">
+                                                <span class="icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24"/></g><g><g><path d="M11,8v5l4.25,2.52l0.77-1.28l-3.52-2.09V8H11z M21,10V3l-2.64,2.64C16.74,4.01,14.49,3,12,3c-4.97,0-9,4.03-9,9 s4.03,9,9,9s9-4.03,9-9h-2c0,3.86-3.14,7-7,7s-7-3.14-7-7s3.14-7,7-7c1.93,0,3.68,0.79,4.95,2.05L14,10H21z"/></g></g></svg>
+                                                </span>
+                                                <span class="text">
+                                                    Script update
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#section-support">
+                                                <span class="icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24"/></g><g><g><path d="M21,12.22C21,6.73,16.74,3,12,3c-4.69,0-9,3.65-9,9.28C2.4,12.62,2,13.26,2,14v2c0,1.1,0.9,2,2,2h1v-6.1 c0-3.87,3.13-7,7-7s7,3.13,7,7V19h-8v2h8c1.1,0,2-0.9,2-2v-1.22c0.59-0.31,1-0.92,1-1.64v-2.3C22,13.14,21.59,12.53,21,12.22z"/><circle cx="9" cy="13" r="1"/><circle cx="15" cy="13" r="1"/><path d="M18,11.03C17.52,8.18,15.04,6,12.05,6c-3.03,0-6.29,2.51-6.03,6.45c2.47-1.01,4.33-3.21,4.86-5.89 C12.19,9.19,14.88,11,18,11.03z"/></g></g></svg>
+                                                </span>
+                                                <span class="text">
+                                                    Support
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#section-license">
+                                                <span class="icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M1 21h12v2H1v-2zM5.24 8.07l2.83-2.83 14.14 14.14-2.83 2.83L5.24 8.07zM12.32 1l5.66 5.66-2.83 2.83-5.66-5.66L12.32 1zM3.83 9.48l5.66 5.66-2.83 2.83L1 12.31l2.83-2.83z"/></svg>
+                                                </span>
+                                                <span class="text">
+                                                    License
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xxl-9 col-sm-12">
+                                <section class="docs-section" id="section-introduction">
+                                    <div class="docs-section__header">
+                                        <h1>
+                                            Introduction − ColibriSM Ultimate PHP Modern Social Media Sharing Platform
+                                        </h1>
+                                    </div>
+                                    <div class="docs-section__body">
+                                        <div class="item-intro">
+                                            <ul>
+                                                <li><strong>Item Name:</strong> <a href="https://codecanyon.net/item/colibrism-the-ultimate-php-modern-social-media-sharing-platform/26612898">ColibriSM</a> - The Ultimate PHP Modern Social Media Sharing Platform</li>
+                                                <li><strong>Item Version:</strong> v1.3.4</li>
+                                                <li><strong>Author:</strong> Mansur TL (mansur_tl)</li>
+                                                <li><strong>License:</strong> CodeCanyon (Regular/Extended) License</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="text-block">
+                                            <h5>
+                                                First of all, I want to thank you for purchasing and supporting this product. 
+                                            </h5>
+                                            <p>
+                                               By creating this script and developing it, we put our soul into every line of code and our main priority is the quality of the product in all directions.
+                                            </p>
+
+                                            <p>
+                                                This documentation will help you to easily install ColibriSM on your server, as well as quickly answer the frequently asked questions of ColibriSM clients.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="docs-section">
+                                    <div class="docs-section__header">
+                                        <h1 id="section-installation">
+                                            Installation
+                                        </h1>
+                                    </div>
+                                    <div class="docs-section__body">
+                                        <div class="text-block">
+                                            <h5>
+                                                Uploading files to your server
+                                            </h5>
+                                            <p>
+                                                To install ColibriSM, first of all you need to upload the files that are in the <strong>ColibriSM</strong> folder to your server.
+                                            </p>
+                                            <p>
+                                                This can be your live server or local server, but the fact is that you need to upload all script files including folders to the root directory of the HTTP server. Mostly this directory is called <strong>public_html</strong>
+                                            </p>
+
+                                            <p>
+                                                The contents of the folder with the main script files look like below:
+                                            </p>
+
+                                            <div class="image-block">
+                                                <img src="images/screenshots/img-1.png" alt="IMG">
+                                            </div>
+
+                                            <p>
+                                                Now upload everything (Including hidden files like <strong>.htaccess</strong>) to your server's root folder as mentioned above and then open the following link in your browser: <br>
+
+                                                <a href="javascript:void(0);">http://www.your-site.com/install</a>
+                                            </p>
+                                        </div>
+                                        <div class="text-block">
+                                            <h5>
+                                                Let's start installation
+                                            </h5>
+                                            <p>
+                                                After you have done the previous steps you should see the script installer as shown below
+                                            </p>
+                                            <div class="image-block">
+                                                <img src="images/screenshots/img-2.png" alt="IMG">
+                                            </div>
+                                            <h5>
+                                                ColibriSM requirements
+                                            </h5>
+                                            <p>
+                                                Before we start the installation, make sure you have the following extensions installed on your server.
+                                            </p>
+
+                                            <ol>
+                                                <li>
+                                                    <strong>
+                                                        MySQLi Extension
+                                                    </strong>
+                                                </li>
+                                                <li>
+                                                    <strong>
+                                                        PHP 7.2.x +
+                                                    </strong>
+                                                </li>
+                                                <li>
+                                                    <strong>
+                                                        GD Library
+                                                    </strong>
+                                                </li>
+                                                <li>
+                                                    <strong>
+                                                        PHP MB-string
+                                                    </strong>
+                                                </li>
+                                                <li>
+                                                    <strong>
+                                                        PHP Zip
+                                                    </strong>
+                                                </li>
+                                                <li>
+                                                    <strong>
+                                                        cURL Module
+                                                    </strong>
+                                                </li>
+                                            </ol>
+                                            <div class="image-block">
+                                                <img src="images/screenshots/img-3.png" alt="IMG">
+                                            </div>
+                                            <p>
+                                                After you have checked all the ColibriSM requirements that are listed above are present in your server, click continue and go to the last stage of the installation, as shown below
+                                            </p>
+                                            <div class="image-block">
+                                                <img src="images/screenshots/img-4.png" alt="IMG">
+                                            </div>
+
+                                            <h5>
+                                                DB credentials & Site data
+                                            </h5>
+
+                                            <p>
+                                                Now you need to fill this form with the following data before starting the installation process
+                                            </p>
+
+                                            <ol>
+                                                <li>
+                                                    <strong>SQL Host name:</strong> Your MySQL host name, e.g: localhost
+                                                </li>
+                                                <li>
+                                                    <strong>SQL Username:</strong> Your MySQL username
+                                                </li>
+                                                <li>
+                                                    <strong>SQL Password:</strong> Your MySQL user password
+                                                </li>
+                                                <li>
+                                                    <strong>SQL Database:</strong> Your MySQL database name
+                                                </li>
+                                                <li>
+                                                    <strong>Site URL:</strong> Your website URL address with which your site will work
+                                                </li>
+                                                <li>
+                                                    <strong>Site Name:</strong> Your site name, max 32 characters. E.g ColibriSM
+                                                </li>
+                                                <li>
+                                                    <strong>Site Title:</strong> Your site title, max 55 characters
+                                                </li>
+                                                <li>
+                                                    <strong>Site E-mail:</strong> Your site email address. E.g. yoursitename@gmail.com etc
+                                                </li>
+                                                <li>
+                                                    <strong>Admin Password:</strong> Choose your admin password
+                                                </li>
+                                            </ol>
+                                            <p>
+                                                After you fill out the form with the data, <strong>click</strong> install button and wait until the installation process is complete without leaving the page. Please note that the installation process may take several minutes.
+                                            </p>
+                                        </div>
+                                        <div class="text-block">
+                                            <h5>
+                                                Installation completed
+                                            </h5>
+
+                                            <p>
+                                                After successful completion of the installation, you will receive an installation completed message as shown below.
+                                            </p>
+                                            <div class="image-block">
+                                                <img src="images/screenshots/img-5.png" alt="IMG">
+                                            </div>
+                                        </div>
+                                        <div class="text-block">
+                                            <h5>
+                                                <span class="text-danger">Important for Nginx HTTP server</span> 
+                                            </h5>
+
+                                            <p>
+                                                Please pay attention to this note if you are using <strong>Nginx</strong> HTTP server for your ColibriSM script.
+                                            </p>
+
+                                            <p>
+                                                Follow these steps to set up your nginx server to work with the rewrite module:
+                                            </p>
+
+                                            <ol>
+                                                <li>
+                                                    Open the main config-file of your server <strong>nginx.conf</strong>, it is mainly located in: <code>/etc/nginx/nginx.conf</code>
+                                                </li>
+                                                <li>
+                                                    Open the root directory of the ColibriSM script, you should be able to find this file <strong>nginx.conf</strong>
+                                                </li>
+                                            </ol>
+                                            <div class="image-block">
+                                                <img src="images/screenshots/img-6.png" alt="IMG">
+                                            </div>
+                                            <ol>
+                                                <li>
+                                                    Open the located file and copy its contents to the main config-file file of your server. I.E. <code>/etc/nginx/nginx.conf</code>
+                                                </li>
+                                                <li>
+                                                    Once you do, save <code>/etc/nginx/nginx.conf</code> fine and restart your <code>Nginx</code> server
+                                                </li>
+                                            </ol>
+                                        </div>
+                                        <div class="text-block">
+                                            <h5>
+                                                What is next?
+                                            </h5>
+
+                                            <p>
+                                                If you did everything as above, then your site should be installed and ready to go, but before that you need <br> to configure the  <strong>Mail/SMTP system</strong> without which your script will not work correctly
+                                            </p>
+
+                                            <p>
+                                                It is very easy to do this. All you need to do is add your SMTP server credentials which is provided to you by your hosting.
+                                            </p>
+
+                                            <ol>
+                                                <li>
+                                                    Login to your site
+                                                </li>
+                                                <li>
+                                                    Open admin panel: <a href="javascript:void(0);">http(s)://your-site.com/admin_panel</a>
+                                                </li>
+                                                <li>
+                                                    Go to <strong>SMTP setting</strong> page
+                                                </li>
+                                                <li>
+                                                    Fill out the form with your SMTP credentials & Save changes
+                                                </li>
+                                            </ol>
+
+                                            <div class="image-block">
+                                                <img src="images/screenshots/img-7.png" alt="IMG">
+                                            </div>
+                                        </div>
+                                        <div class="text-block">
+                                            <h5>
+                                                <span class="text-danger">Important! Remove ColibriSM installer!</span>
+                                            </h5>
+
+                                            <p>
+                                                Your site is now installed and ready to go, congratulations. <br>
+
+                                                However, it is very important to remove the script installer, so you need to delete the <code>install</code> folder which is located in the root directory of your installed script.
+                                            </p>
+                                            <p>
+                                                You must delete the folder with all contents, otherwise your site may be <strong>hacked by intruders</strong>.
+                                            </p>
+                                            <div class="image-block">
+                                                <img src="images/screenshots/img-8.png" alt="IMG">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section id="section-soclogin" class="docs-section">
+                                    <div class="docs-section__header">
+                                        <h1>
+                                            Social login (oAuth)
+                                        </h1>
+                                    </div>
+                                    <div class="docs-section__body">
+                                        <div class="text-block">
+                                            <h4>
+                                                How to set up a login through social networks
+                                            </h4>
+                                            <p>
+                                                ColibriSM currently <strong>(v1.3.4)</strong> supports <b>(8)</b> options for login via social networks, and of course this list will grow in the future with popular social login methods.
+                                            </p>
+
+                                            <ol>
+                                                <li>
+                                                    Twitter (Requres API keys) - <strong>Callback URL: http(s)://www.your-site.com/oauth/twitter</strong>
+                                                </li>
+                                                <li>
+                                                    Google (Requres API keys) - <strong>Callback URL: http(s)://www.your-site.com/oauth/google</strong>
+                                                </li>
+                                                <li>
+                                                    Facebook (Requres API keys) - <strong>Callback URL: http(s)://www.your-site.com/oauth/facebook</strong>
+                                                </li>
+                                            </ol>
+
+                                            <p>
+                                                To configure these options so that your users can log in through them, you need to add API keys for each option if it is enabled.
+                                                Just go to the admin panel of your script and go to the page: <strong>oAuth login</strong>
+                                            </p>
+                                            <div class="image-block">
+                                                <img src="images/screenshots/img-9.png" alt="IMG">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section id="section-faqs" class="docs-section">
+                                    <div class="docs-section__header">
+                                        <h1>
+                                            F.A.Qs & Troubleshooting
+                                        </h1>
+                                    </div>
+                                    <div class="docs-section__body">
+                                        <div class="text-block no-mb">
+                                            <h5>
+                                                Basic questions about ColibriSM script
+                                            </h5>
+                                        </div>
+                                        <div class="accordion-block">
+                                            <div class="accordion" id="section-faqs-accordion-1">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-10" aria-expanded="true" aria-controls="section-faqs-10">
+                                                            <strong>1.</strong> Where can I access Admin panel?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-10" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-1">
+                                                        <div class="accordion-body">
+                                                            Login to the site using your credentials, that is, the email and password that you specified during installation, and then visit <strong>http(s)://www.YOUR-SITE.com/admin_panel</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-1" aria-expanded="true" aria-controls="section-faqs-1">
+                                                            <strong>2.</strong> What PHP framework ColibriSM is built on?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-1" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-1">
+                                                        <div class="accordion-body">
+                                                            <strong>ColibriSM</strong> does not use any types of frameworks, the script is full pure PHP code, with the exception of third-party libraries SDK and other
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-2" aria-expanded="true" aria-controls="section-faqs-2">
+                                                            <strong>3.</strong> When is the next update coming up? what is the new features?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-2" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-1">
+                                                        <div class="accordion-body">
+                                                            There is no specified date for every new update. Developers do this at their discretion, but ColibriSM is regularly updated and improved.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-3" aria-expanded="true" aria-controls="section-faqs-3">
+                                                            <strong>4.</strong> Which host provider do you recommend for ColibriSM?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-3" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-1">
+                                                        <div class="accordion-body">
+                                                            We don't have a particular preference for choosing a host for this script, the main thing is that the hosting supports all the necessary requirements for this script that are mentioned during installation.
+                                                            <br>
+                                                            <br>
+
+                                                            If you do not understand hosting at all, then we recommend that you choose one of <strong>(Godaddy, Hostwinds, Bluehost)</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-4" aria-expanded="true" aria-controls="section-faqs-4">
+                                                            <strong>5.</strong> Can I use ColibriSM in more than 1 domain?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-4" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-1">
+                                                        <div class="accordion-body">
+                                                            It depends on the type of license you have purchased.
+                                                            <br>
+
+                                                            There are two types of licenses for this script, <strong>Regular license</strong> & <strong>Extended license</strong>
+                                                            <br>
+                                                            <br>
+
+                                                            Please check Envato Help Page for more information about licenses <a href="http://codecanyon.net/licenses/standard" target="_blank">http://codecanyon.net/licenses/standard</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-block no-mb">
+                                            <h5>
+                                                ColibriSM common Troubleshooting & Solutions
+                                            </h5>
+                                        </div>
+                                        <div class="accordion-block">
+                                            <div class="accordion" id="section-faqs-accordion-2">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-5" aria-expanded="true" aria-controls="section-faqs-5">
+                                                            <strong>1.</strong> Why I get 500 internal service error?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-5" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-2">
+                                                        <div class="accordion-body">
+                                                            First of all, you need to know that this error is not related to the script, since this is a server error and it was caused due to problems on the server and not on the script.
+                                                            <br>
+                                                            <br>
+                                                            This may cuase due folder permissions error, Web server issue, please contact your host provider and let them fix it for you.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-6" aria-expanded="true" aria-controls="section-faqs-6">
+                                                            <strong>2.</strong> Why do I get 404, when I open any page?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-6" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-2">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                1. Please make sure that the <code>.htaccess</code> file is uploaded to your server and updated to latest version.
+                                                            </p>
+                                                            <p>
+                                                                2. If the file is exists, but you still face this issue, please contact your host provide, and let them enable <code>mod_rewrite</code>.
+                                                            </p>
+                                                            <p>
+                                                                3. If you are using a VPS with Ubuntu Linux installed, please follow this <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_rewrite-for-apache-on-ubuntu-14-04" target="_blank">guide.</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-7" aria-expanded="true" aria-controls="section-faqs-7">
+                                                            <strong>3.</strong> Why am I getting an error while uploading a video or image
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-7" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-2">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                If you are getting an error when uploading a image or video, then there may be several reasons:
+                                                            </p>
+                                                            <ol>
+                                                                <li>
+                                                                    The <strong>upload</strong> folder has no write rights. Just chmod it to <strong>666</strong>
+                                                                </li>
+                                                                <li>
+                                                                    Your disk storage limit on the server has been reached.
+                                                                </li>
+                                                                <li>
+                                                                    The file you are uploading exceeds the limit specified in the PHP settings. <br>Increase <strong>upload_max_filesize & post_max_size</strong> values in main <strong>php.ini</strong> file of your server
+                                                                </li>
+                                                                <li>
+                                                                    The file format you are uploading is not supported by the ColibriSM script
+                                                                </li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-8" aria-expanded="true" aria-controls="section-faqs-8">
+                                                            <strong>4.</strong> Why the video does not have a preview after uploading
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-8" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-2">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                The fact is that this script has its own ffmpeg that comes with this script, and it is this system that generates images from videos.
+                                                            </p>
+                                                            <p>
+                                                                A video may load but not have a preview, and this is due to the following reasons:
+                                                            </p>
+
+                                                            <ol>
+                                                                <li>
+                                                                    The <strong>(core/libs/ffmpeg/ffmpeg)</strong> file has no rights for execution. Just chmod it to <strong>555</strong>
+                                                                </li>
+                                                                <li>
+                                                                    The PHP <code>exec()</code> function is disabled by your hosting provider. Just enable it
+                                                                </li>
+                                                            </ol>
+
+                                                            <p>
+                                                                Sometimes it happens, so you have a system <strong>(FFMPEG)</strong> installed on your server and it conflicts <br> with the one that comes with this script, it crashes, in such case we recommend that you use the one that is installed on your server. 
+                                                                You can specify the path to the binary file in the <strong>Admin panel -> Settings -> FFMPEG binary.</strong>  As shown below
+                                                            </p>
+
+                                                            <div class="image-block">
+                                                                <img src="images/screenshots/img-10.png" alt="IMG">
+                                                            </div>
+
+                                                            <p>
+                                                                If your server already has system <strong>(FFMPEG)</strong> installed as we said, then just specify the path to it in this field
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-9" aria-expanded="true" aria-controls="section-faqs-9">
+                                                            <strong>5.</strong> Why is sending emails not working?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-9" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-2">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                You need to set up your script's <strong>SMTP</strong> after script installation so that your script can send email to your users for different purposes.
+                                                            </p>
+                                                            <ol>
+                                                                <li>
+                                                                    Login to your site as Admin
+                                                                </li>
+                                                                <li>
+                                                                    Go to Admin panel page
+                                                                </li>
+                                                                <li>
+                                                                    Open SMTP settings page
+                                                                </li>
+                                                                <li>
+                                                                    Fill this with your SMTP server credentials
+                                                                </li>
+                                                            </ol>
+                                                            <p class="text-danger">
+                                                                <small>
+                                                                    Please note that if you use a third party server such as <strong>Google SMTP</strong> or something like that, then in most cases your script will not work, i.e. it will not send emails.
+
+                                                                    Therefore, you need to use the smtp server that is provided to you by your hosting
+                                                                </small>
+                                                            </p>
+                                                            <div class="image-block">
+                                                                <img src="images/screenshots/img-11.png" alt="IMG">
+                                                            </div>
+                                                            <p>
+                                                                This problem occurs due to the SMTP settings, for example, the wrong port number or the type of encryption. <br>
+                                                                After making sure that your SMTP credentials as hostname username and password are correct, try the following options
+                                                            </p>
+                                                            <ol>
+                                                                <li>
+                                                                    Try using <strong>TLS</strong> with <strong>587</strong>
+                                                                </li>
+                                                                <li>
+                                                                    Or try <strong>SSL</strong> with <strong>465</strong>
+                                                                </li>
+                                                            </ol>
+                                                            <p>
+                                                                If your SMTP still doesn't work, please contact us for technical support
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-block no-mb">
+                                            <h5>
+                                                ColibriSM features & Script customization
+                                            </h5>
+                                        </div>
+                                        <div class="accordion-block">
+                                            <div class="accordion" id="section-faqs-accordion-3">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-1" aria-expanded="true" aria-controls="section-faqs-1">
+                                                            <strong>1.</strong> Where can I change the language texts?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-1" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-3">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                All texts of the site's languages are located in <strong>core/langs</strong> special json files in the very core of the script.
+                                                            </p>
+
+                                                            <div class="image-block">
+                                                                <img src="images/screenshots/img-12.png" alt="IMG">
+                                                            </div>
+
+                                                            <p>
+                                                                Open the file with the name of the language you want to edit. For example <strong>english.json</strong>
+                                                            </p>
+
+                                                            <p>
+                                                                We find there the text that we want to change, for example <strong>(Login) to (Sign in)</strong>
+                                                            </p>
+
+                                                            <p>
+                                                                Copy the key and value <code>"login": "Login"</code> and go to the folder <strong>core/langs/custom</strong> and open a file there with the corresponding language name that we want to change, in our case it was <strong>english.json</strong>
+                                                            </p>
+
+                                                            <p>
+                                                                We remove if there is a comment and put the key and the value in the same format as shown below:
+                                                            </p>
+                                                            <div class="image-block">
+                                                                <img src="images/screenshots/img-13.png" alt="IMG">
+                                                            </div>
+
+                                                            <p>
+                                                                However, keep in mind that the keys must match the originals exactly, and when editing text, do not remove special expressions like <code>{@some_value@}</code>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-2" aria-expanded="true" aria-controls="section-faqs-2">
+                                                            <strong>2.</strong> Where can I modify the HTML/JS code?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-2" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-3">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                All HTML code and most of the JS code are in <strong>filename.phtml</strong> files grouped and separately for each page of this script.
+                                                            </p>
+                                                            <p>
+                                                                Open folder in <strong>themes/default/apps</strong> and you will see folders named according to script pages
+                                                            </p>
+                                                            <p>
+                                                                For example, you want to change the html code of the <strong>homepage</strong>, then you need to open the file: <strong>themes/default/app/home</strong>
+                                                            </p>
+
+                                                            <ol>
+                                                                <li>
+                                                                    <code>content.phtml</code> Main file that contains the page <strong>(HTML)</strong> code
+                                                                </li>
+                                                                <li>
+                                                                    <code>scripts/app_master_script.phtml</code> JS file that contains the page <strong>(JS/VueJS)</strong> code
+                                                                </li>
+                                                            </ol>
+
+                                                            <p>
+                                                                Thus, you can edit all other pages of the <strong>Colibrism script</strong> if you clearly understand what you are doing and have sufficient competence in this matter.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-3" aria-expanded="true" aria-controls="section-faqs-3">
+                                                            <strong>3.</strong> Where can I edit the CSS styles?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-3" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-3">
+                                                        <div class="accordion-body">
+
+                                                            <p>
+                                                                We use CSS preprocessors like SCSS to generate styles for this script.
+
+                                                                All <strong>SCSS</strong> style files are located in the folder: <code>themes/default/statics/scss</code>
+                                                            </p>
+
+                                                            <p>
+                                                                After you have added your changes to the SCSS code, you need to compile all the code to CSS.
+
+                                                                For example, you can use the console command from <code>themes/default/statics/scss/scss-watch</code> file to run the SCSS compiler which must first be installed on your <strong>PC/Server</strong> machine.
+                                                            </p>
+
+                                                            <p>
+                                                                Also, after making changes, sometimes they are not displayed in the browser due to the cache. You need to clear your browser cache to see your changes.
+                                                            </p>                                                              
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-4" aria-expanded="true" aria-controls="section-faqs-4">
+                                                            <strong>4.</strong> How can I change the logo and favicon?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-4" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-3">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                Open the <code>themes/default/statics/img</code> folder and replace these <strong>logo.png & favicon.png</strong> files with yours, respectively 
+                                                            </p>
+                                                            <p>
+                                                                Recommended logo size is 512x512 pixels
+                                                            </p>                                                       
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-5" aria-expanded="true" aria-controls="section-faqs-5">
+                                                            <strong>5.</strong> How can I edit (Terms of use, Privacy policy, About us) and the rest static pages?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-5" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-3">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                To edit the <strong>(About us)</strong> page, open the following file: <code>themes/default/apps/about_us/src/source.phtml</code> and paste the previously created HTML content of this page into it, and then save!
+                                                            </p>
+                                                            <hr>
+                                                            <p>
+                                                                To edit the <strong>(Terms of Use)</strong> page, open the following file: <code>themes/default/apps/terms/src/source.phtml</code> and paste the previously created HTML content of this page into it, and then save!
+                                                            </p>
+                                                            <hr>
+                                                            <p>
+                                                                To edit the <strong>(Privacy policy)</strong> page, open the following file: <code>themes/default/apps/privacy_policy/src/source.phtml</code> and paste the previously created HTML content of this page into it, and then save!
+                                                            </p>
+                                                            <hr>
+                                                            <p>
+                                                                To edit the <strong>(Cookies)</strong> page, open the following file: <code>themes/default/apps/cookies_policy/src/source.phtml</code> and paste the previously created HTML content of this page into it, and then save!
+                                                            </p>
+                                                            <hr>
+                                                            <p>
+                                                                To edit the <strong>(F.A.Qs)</strong> page, open the following file: <code>themes/default/apps/faqs/src/source.phtml</code> and paste the previously created HTML content of this page into it, and then save!
+                                                            </p>
+
+                                                            <p class="text-info">
+                                                                This editing method was chosen by the author, because. HTML markup can sometimes be unpredictably huge, so experience has shown that storing huge pages in the database, and even encoded ones, is not the best option.
+                                                            </p>                                                 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-6" aria-expanded="true" aria-controls="section-faqs-6">
+                                                            <strong>6.</strong> How the advertising system works?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-6" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-3">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                If the advertising system is enabled, then users can create their own ads and run them. An ad conversion is a <strong>Click</strong> of user on the target link of the ad itself.
+                                                            </p>
+
+                                                            <p>
+                                                                Ads from users will appear between posts at a certain interval. An example is shown below:
+                                                            </p>
+
+                                                            <div class="row">
+                                                                <div class="col-xxl-8">
+                                                                    <div class="image-block">
+                                                                        <img src="images/screenshots/img-14.png" alt="IMG">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <p>
+                                                                For each user conversion, the advertiser will be charged money that the administrator can define in the admin panel. It is important to note that ads will not be shown if the user's wallet does not have sufficient funds.
+                                                            </p>
+
+                                                            <p class="text-info">
+                                                                It is also very important to note that this advertising system is not targeted advertising.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-7" aria-expanded="true" aria-controls="section-faqs-7">
+                                                            <strong>7.</strong> How the affiliate program function works?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-7" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-3">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                If the affiliate program system is enabled, then users can make money by attracting users to your site.
+                                                            </p>
+
+                                                            <ol>
+                                                                <li>
+                                                                    A user shares a link to your site that includes a user ID. E.g. <code><strong>https://sm-colibri.ru?ref=mansur_admin</strong></code>
+                                                                </li>
+                                                                <li>
+                                                                    A person follows the link and registers on your site.
+                                                                </li>
+                                                                <li>
+                                                                    And as a result, the referral user receives a bonus, which by default is <span class="text-success">$0.10</span>
+                                                                </li>
+                                                                <li>
+                                                                    And finally, the user can withdraw their earned money to the PayPal account
+                                                                </li>
+                                                            </ol>
+
+                                                            <p class="text-danger">
+                                                                It is very important to note that the affiliate program will only work if the user sign-up confirmation system is enabled
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section-faqs-11" aria-expanded="true" aria-controls="section-faqs-11">
+                                                            <strong>8.</strong> How I can change login page slider images?
+                                                        </button>
+                                                    </h2>
+                                                    <div id="section-faqs-11" class="accordion-collapse collapse" data-bs-parent="#section-faqs-accordion-3">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                Open the <code>themes/default/statics/img/guest/default</code> folder and replace these <strong>(img-1.jpg, img-2.jpg, img-3.jpg, and the rest)</strong> files with your images, respectively 
+                                                            </p>
+
+                                                            <strong class="text-danger">IMPORTANT!</strong>
+                                                            <ul>
+                                                                <li>Slide image size must be <code>960x1080</code> pixels</li>
+                                                                <li>Slide image extension must be <code>jpg</code>, not jpeg, png, or whatever</li>
+                                                                <li>Recommended quantity of images from 5 to 10 images</li>
+                                                            </ul>
+
+                                                            <p class="text-info">
+                                                                Please note, image filenames must be numbered sequentially as shown below
+                                                            </p>
+                                                            <ol>
+                                                                <li>
+                                                                    img-1.jpg
+                                                                </li>
+                                                                <li>
+                                                                    img-2.jpg
+                                                                </li>
+                                                                <li>
+                                                                    img-3.jpg
+                                                                </li>
+                                                                <li>
+                                                                    img-4.jpg
+                                                                </li>
+                                                                <li>
+                                                                    and so on up to 10 images
+                                                                </li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="docs-section">
+                                    <div class="docs-section__header">
+                                        <h1 id="section-https">
+                                            HTTPS / SSL Security
+                                        </h1>
+                                    </div>
+                                    <div class="docs-section__body">
+                                        <div class="text-block">
+                                            <h4>
+                                                How can I install a SSL?
+                                            </h4>
+
+                                            <p>
+                                                After you bought and configured your web server to use ssl certificat, go to <strong>core/settings.php</strong> file, find:<br><code>$site_url = "http://YOUR-SITE.COM";</code> and replace URL from <strong>http</strong> to <strong>https</strong> version.
+                                            </p>
+
+                                            <p class="text-info">
+                                                Please note that you need to switch your domain to <strong>HTTPS</strong> version in the c-panel of your hosting account.<br>
+                                                You can always contact your hosting support team to tell you how to do it.
+                                            </p>
+                                        </div>
+                                        <hr>
+                                        <div class="text-block">
+                                            <h4>
+                                                How can I redirect (force) my website to use a SSL version?
+                                            </h4>
+
+                                            <p>
+                                                Some hosting providers have a function that forces all requests to be redirected to the secure HTTPS protocol. However, you can make this setup yourself as shown below.
+                                            </p>
+
+                                            <hr>
+                                            <h5>
+                                                1. Force Apache server to HTTPS version
+                                            </h5>
+                                            <p>
+                                                In the root directory of your website there is a file called: <code>.htaccess</code>
+                                            </p>
+                                            <p>
+                                                Open it and uncomment the code shown below. This option will only work with the Apache web server.
+                                            </p>
+                                        </div>
+                                        <div class="code-block">
+                                            <code class="d-block">
+                                                # RewriteCond %{HTTPS} off<br>
+                                                # RewriteCond %{HTTP:X-Forwarded-Proto} !https<br>
+                                                # RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+                                            </code>
+                                        </div>
+                                        <hr>
+                                        <div class="text-block">
+                                            <h5>
+                                                2. Force Nginx server to HTTPS version
+                                            </h5>
+
+                                            <p>
+                                                With the <strong>Nginx</strong> server, this setting needs to be done in a slightly different way.
+                                                You need to open the main <strong>Nginx</strong> config file <code>/etc/nginx/nginx.conf</code><br>
+                                                And then add the following line of code to this file:
+                                            </p>
+                                            <div class="code-block">
+                                                <code class="d-block">
+                                                    return 301 https://$host$request_uri;
+                                                </code>
+                                            </div>
+
+                                            <p>
+                                                If you find it something difficult to do, please contact your hosting provider, and they will do it for you easily.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="docs-section" id="section-update">
+                                    <div class="docs-section__header">
+                                        <h1>
+                                            Script update
+                                        </h1>
+                                    </div>
+                                    <div class="docs-section__body">
+                                        <div class="text-block">
+                                            <h5>
+                                                Ho to update my ColibriSM website?
+                                            </h5>
+
+                                            <p>
+                                                If you have missed one or two or <strong>v1.x.x</strong> updates, and you want to update your site to latest version, you have to update your site version by version manually. 
+                                            </p>
+                                            <p>
+                                                E.g. Before applying the latest updates to your site, you need to install previous updates, or rather, all versions of the update, from your current version to the latest version.
+                                            </p>
+
+                                            <p>
+                                                For example, your current version is: <strong>(v1.0)</strong>, and the latest version of the script is: <strong>(v1.0.4)</strong>, in such cases, you must install these previous versions <strong>(v1.0.1, v1.0.2, v1.0.3)</strong>, before installing the latest version <strong>v1.0.4</strong>
+                                            </p>
+                                            <hr>
+                                            <p>
+                                                If you did everything as described above, then before starting the update, download the latest version of the script from here: <a href="https://codecanyon.net/downloads" target="_blank">CodeCanyon - Downloads</a>
+                                            </p>
+                                            <p>
+                                                Once you have downloaded the latest version of the script, unzip it and you can find the update files in <strong>Updates</strong> folder, as shown below:
+                                            </p>
+                                            <div class="image-block">
+                                                <img src="images/screenshots/img-15.png" alt="IMG">
+                                            </div>
+
+                                            <p>
+                                                Open the folder with the update you want to install and upload to the root folder of your script on your server and overwrite all files <strong>(Select all, files and folders, .htaccess also)</strong> that are in the update folder that you chose to install
+                                            </p>
+                                            <p>
+                                                Once the files are uploaded and overwritten, open and run <code>http://www.YOUR-SITE.com/update</code>
+                                            </p>
+                                            <hr>
+
+                                            <p>
+                                                If you do everything carefully, as described above, then your script will be successfully updated without any problems. However, if you have any problems with updates, then contact us for technical support: <a href="mailto:vayart.help@gmail.com">vayart.help@gmail.com</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="docs-section" id="section-support">
+                                    <div class="docs-section__header">
+                                        <h1>
+                                            Customers support
+                                        </h1>
+                                    </div>
+                                    <div class="docs-section__body">
+                                        <div class="text-block">
+                                            <h5>
+                                                I have a problem for which here is no answer, what to do?
+                                            </h5>
+
+                                            <p>
+                                                If you need support, or if you're facing any problems, please E-mail us at <a href="mailto:vayart.help@gmail.com">vayart.help@gmail.com</a> Please note that our respond can take up to 2 business days.
+                                            </p>
+                                            <p>
+                                                You can find additional information on my ColibriSM demo account: <a href="https://www.colibri-sm.ru/mansur_tl_help" target="_blank">https://www.colibri-sm.ru/mansur_tl_help</a>
+                                            </p>
+
+                                            <p class="text-danger">
+                                                Please do not forget to attach a purchasecode to your message, otherwise technical support will ignore your request
+                                            </p>
+                                            <hr>
+                                            <h5>
+                                                What does the support include?
+                                            </h5>
+                                            <p>
+                                                You can contact our support center with the following questions.
+                                            </p>
+                                            <ol>
+                                                <li>
+                                                    Technical questions about ColibriSM features
+                                                </li>
+                                                <li>
+                                                    Assistance with reported bugs and issues
+                                                </li>
+                                                <li>
+                                                    Help with included 3rd party assets. E.g. (Social Login, etc.)
+                                                </li>
+                                            </ol>
+                                            <p class="text-info">
+                                                Please note that all requests other than those listed below will be ignored.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="docs-section">
+                                    <div class="docs-section__header">
+                                        <h1 id="section-license">
+                                            License
+                                        </h1>
+                                    </div>
+                                    <div class="docs-section__body">
+                                        <div class="text-block">
+                                            <h4>
+                                                Envato Extended & Regular License
+                                            </h4>
+                                            <p>
+                                                <a href="https://codecanyon.net/item/colibrism-the-ultimate-php-modern-social-media-sharing-platform/26612898">ColibriSM</a> is made by <a href="https://codecanyon.net/user/mansur_tl" target="_blank">MansurTL</a> under CodeCanyon (<a href="https://codecanyon.net/licenses/standard" target="_blank">Regular & Rxtended</a>) License.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <script src="js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="js/vendor/bootstrap.bundle.min.js"></script>
+        <script src="js/script.master.js"></script>
+    </body>
+</html>
