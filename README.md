@@ -31,6 +31,8 @@ https://codecanyon.net/item/colibrism-the-ultimate-php-modern-social-media-shari
 ____          _  _  _____ _ ___         
  ||_ /\ |\/| / \|_)(_  | | \ |  /\ |\ | 
  ||_/--\|  | \_/|_)__)_|_|_/_|_/--\| \| 
+ 
+DISCORD - https://discadia.com/we-re-not-real
 
 EvanThaGod -- KrrustyAli -- NiteEnby
 Crack open another tinny! Roamin' undercover @ https://doubtible.com
